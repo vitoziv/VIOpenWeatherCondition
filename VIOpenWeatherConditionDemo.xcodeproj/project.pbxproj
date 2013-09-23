@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F2F65C117F0480500203F6A /* VIOpenWeatherCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F65C017F0480500203F6A /* VIOpenWeatherCondition.m */; };
 		5FC0FCB517F047BB0084C8A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC0FCB417F047BB0084C8A5 /* Foundation.framework */; };
 		5FC0FCB717F047BB0084C8A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC0FCB617F047BB0084C8A5 /* CoreGraphics.framework */; };
 		5FC0FCB917F047BB0084C8A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC0FCB817F047BB0084C8A5 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F2F65BF17F0480500203F6A /* VIOpenWeatherCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIOpenWeatherCondition.h; sourceTree = "<group>"; };
+		5F2F65C017F0480500203F6A /* VIOpenWeatherCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIOpenWeatherCondition.m; sourceTree = "<group>"; };
 		5FC0FCB117F047BB0084C8A5 /* VIOpenWeatherConditionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIOpenWeatherConditionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC0FCB417F047BB0084C8A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FC0FCB617F047BB0084C8A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2F65BE17F0480500203F6A /* VIOpenWeatherCondition */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F65BF17F0480500203F6A /* VIOpenWeatherCondition.h */,
+				5F2F65C017F0480500203F6A /* VIOpenWeatherCondition.m */,
+			);
+			path = VIOpenWeatherCondition;
+			sourceTree = SOURCE_ROOT;
+		};
 		5FC0FCA817F047BB0084C8A5 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,7 @@
 		5FC0FCBA17F047BB0084C8A5 /* VIOpenWeatherConditionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F2F65BE17F0480500203F6A /* VIOpenWeatherCondition */,
 				5FC0FCC317F047BB0084C8A5 /* AppDelegate.h */,
 				5FC0FCC417F047BB0084C8A5 /* AppDelegate.m */,
 				5FC0FCC617F047BB0084C8A5 /* Main.storyboard */,
@@ -252,6 +265,7 @@
 				5FC0FCCB17F047BB0084C8A5 /* ViewController.m in Sources */,
 				5FC0FCC517F047BB0084C8A5 /* AppDelegate.m in Sources */,
 				5FC0FCC117F047BB0084C8A5 /* main.m in Sources */,
+				5F2F65C117F0480500203F6A /* VIOpenWeatherCondition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +474,7 @@
 				5FC0FCE517F047BB0084C8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FC0FCE617F047BB0084C8A5 /* Build configuration list for PBXNativeTarget "VIOpenWeatherConditionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +483,7 @@
 				5FC0FCE817F047BB0084C8A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
